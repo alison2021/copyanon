@@ -21,11 +21,6 @@
             "description": "Your API HASH from my.telegram.org",
             "value": ""
         },
-        "UPDATES_CHANNEL": {
-            "description": "Your Update Channel Username without '@'",
-            "value": ""
-        }
-    },
     "addons": [],
     "buildpacks": [
         {
