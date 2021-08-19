@@ -120,7 +120,7 @@ async def upload(client, message):
                     chat_id=message.chat.id,
                     text="**Sᴏʀʀʏ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ! Cᴏɴᴛᴀᴄᴛ** [Dᴇᴠᴇʟᴏᴘᴇʀ](https://telegram.me/AvishkarPatil).",
                     parse_mode="markdown",
-                    disable_web_page_preview=True
+                    disable_web_page_preview=False 
                 )
                 return
         except UserNotParticipant:
