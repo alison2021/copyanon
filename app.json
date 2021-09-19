@@ -25,7 +25,8 @@
         },
         "UPDATES_CHANNEL": {
             "description": "Your Update Channel Username without '@'",
-            "value": ""
+            "value": "",
+            "required": false
         }
     },
     "addons": [],
